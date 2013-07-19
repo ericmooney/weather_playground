@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(:version => 20130718234056) do
 
   create_table "weathers", :force => true do |t|
-    t.string   "date"
+    t.float    "date"
     t.float    "min_temp"
     t.float    "max_temp"
     t.datetime "created_at", :null => false

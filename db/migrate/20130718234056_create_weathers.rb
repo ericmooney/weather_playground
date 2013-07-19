@@ -1,7 +1,7 @@
 class CreateWeathers < ActiveRecord::Migration
   def change
     create_table :weathers do |t|
-      t.string :date
+      t.datetime :date
       t.float :min_temp
       t.float :max_temp
 

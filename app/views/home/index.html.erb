@@ -3,7 +3,7 @@
 <ul>
   <% @weathers.each do |weather| %>
     <li>
-      <%= Time.at(weather.date.to_i) %>
+      <%= Time.at(weather.date) %>
     </li>
     <li>
       <%= weather.min_temp %>
